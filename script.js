@@ -105,7 +105,7 @@ fontStylesList = ['flaming-text', 'blue-background-text', 'lux', 'neon', 'comic'
 
 let counterFlag = true
 
-let textList = ['MENNA', 'Hello', 'mesh betzakry leeeh??', 'mama betkolk zakry ya fashla', 'we kefaya LUDO', 'we kol showa neshofk online 3la facebook', 'shofy halek ya fashla', 'yla komy zakry', 'mesh kolt komy zakry!!!', 'seby el mobile we komy zakry yla', 'enty lesa hena???', 'shofy el video dah we komy zakry yla', 'yla 5las keda mfesh 7aga tany', '5las ya benty mfesh 7aga tany kolna', 'ro7y 5las', 'bye bye', 'slamoz', 'go to hell!', 'bs b2a', 'don\'t click anymore please!', 'byeeeeeeeeeeeeeee']
+let textList = ['MENNA', 'Hello', 'mesh betzakry leeeh??', 'mama betkolk zakry ya fashla', 'we kefaya LUDO', 'we kol showa neshofk online 3la facebook', 'shofy halek ya fashla', 'yla komy zakry', 'mesh kolt komy zakry!!!', 'seby el mobile we komy zakry yla', 'enty lesa hena???', 'shofy el video dah we komy zakry yla', 'yla 5las keda mfesh 7aga tany', '5las ya benty mfesh 7aga tany kolna', 'ro7y 5las', 'bye bye', 'slamoz', 'go to hell!', 'bs b2a', 'don\'t click anymore please!', 'byeeeee']
 let counter = 0;
 
 const head = document.querySelector('h1')
