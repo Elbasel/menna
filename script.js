@@ -101,7 +101,7 @@ function updateProg() {
 
 animationList = ['focus-in-expand', 'tracking-in-contract-bck-bottom', 'tracking-in-contract', 'animate__bounceIn', 'animate__flip']
 
-fontStylesList = ['flaming-text', 'blue-background-text', 'lux', 'neon', 'comic']
+fontStylesList = ['flaming-text', 'blue-background-text', 'lux', 'comic']
 
 let counterFlag = true
 
