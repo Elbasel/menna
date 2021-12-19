@@ -63,6 +63,7 @@ function changeText() {
     if (counter > 12 && counterFlag) {
         counter = 12
         counterFlag = false
+        bye.play()
     }
 
     body.innerHTML = ''
@@ -111,6 +112,7 @@ const head = document.querySelector('h1')
 const body = document.querySelector('body')
 const music = new Audio('./music.mp3');
 const fashel = new Audio('./fashel.mp3')
+const bye = new Audio('./bye.mp3')
 
 
 
