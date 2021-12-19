@@ -1,0 +1,248 @@
+/* ========== START Dark Mode Colors ========== */
+
+:root {
+    --primary: #131516;
+    --secondary: #2B2F31;
+    --text: #d8d4cf;
+    --blue: #004daa;
+    --caption: #e8e6e3;
+}
+
+
+/* ========== END Dark Mode Colors ========== */
+
+
+/* ========== START CSS Reset ========== */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ========== END CSS Reset ========== */
+
+
+/* 
+* {
+    border: 1px solid red;
+} */
+
+body {
+    display: flex;
+    height: 100vh;
+    background: url('./bg.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+h1 {
+    color: white;
+    /* font-family: 'Anton', sans-serif; */
+    font-size: 18vw;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+
+/* ========== Text Styles ========= */
+
+.flaming-text {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 0px -1px 4px, rgb(255, 255, 0) 0px -2px 10px, rgb(255, 128, 0) 0px -10px 20px, rgb(255, 0, 0) 0px -18px 40px;
+}
+
+.blue-background-text {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 230, 230) -5px 5px 0px, rgb(1, 204, 204) -10px 10px 0px, rgb(0, 189, 189) -15px 15px 0px;
+}
+
+.lux {
+    color: rgb(19, 19, 19);
+    letter-spacing: 0.15em;
+    text-shadow: rgb(118, 118, 118) 1px -1px 0px, rgb(115, 114, 114) -1px 2px 1px, rgb(118, 116, 116) -2px 4px 1px, rgb(120, 119, 119) -3px 6px 1px, rgb(123, 122, 122) -4px 8px 1px, rgb(127, 125, 125) -5px 10px 1px, rgb(130, 129, 129) -6px 12px 1px, rgb(134, 133, 133) -7px 14px 1px, rgb(139, 138, 137) -8px 16px 1px, rgb(143, 142, 141) -9px 18px 1px, rgb(148, 147, 146) -10px 20px 1px, rgb(153, 152, 151) -11px 22px 1px, rgb(158, 156, 156) -12px 24px 1px, rgb(163, 161, 161) -13px 26px 1px, rgb(168, 166, 166) -14px 28px 1px, rgb(173, 171, 171) -15px 30px 1px, rgb(178, 177, 176) -16px 32px 1px, rgb(183, 182, 181) -17px 34px 1px, rgb(188, 187, 186) -18px 36px 1px, rgb(193, 191, 191) -19px 38px 1px, rgb(198, 196, 196) -20px 40px 1px, rgb(203, 201, 200) -21px 42px 1px, rgb(207, 205, 205) -22px 44px 1px, rgb(212, 210, 209) -23px 46px 1px, rgb(216, 214, 213) -24px 48px 1px, rgb(219, 218, 217) -25px 50px 1px, rgb(223, 221, 220) -26px 52px 1px, rgb(226, 224, 223) -27px 54px 1px, rgb(228, 227, 226) -28px 56px 1px;
+}
+
+.neon {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(255, 255, 255) 0px 0px 5px, rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px 15px, rgb(73, 255, 24) 0px 0px 20px, rgb(73, 255, 24) 0px 0px 30px, rgb(73, 255, 24) 0px 0px 40px, rgb(73, 255, 24) 0px 0px 55px, rgb(73, 255, 24) 0px 0px 75px;
+}
+
+.comic {
+    color: rgb(188, 46, 30);
+    text-shadow: rgb(55, 138, 180) 0px 1px 0px, rgb(93, 171, 205) 1px 0px 0px, rgb(55, 138, 180) 1px 2px 1px, rgb(93, 171, 205) 2px 1px 1px, rgb(55, 138, 180) 2px 3px 2px, rgb(93, 171, 205) 3px 2px 2px, rgb(55, 138, 180) 3px 4px 2px, rgb(93, 171, 205) 4px 3px 3px, rgb(55, 138, 180) 4px 5px 3px, rgb(93, 171, 205) 5px 4px 2px, rgb(55, 138, 180) 5px 6px 2px, rgb(93, 171, 205) 6px 5px 2px, rgb(55, 138, 180) 6px 7px 1px, rgb(93, 171, 205) 7px 6px 1px, rgb(55, 138, 180) 7px 8px 0px, rgb(93, 171, 205) 8px 7px 0px;
+}
+
+
+/* ========== ANIMATIONS ========== */
+
+.focus-in-expand {
+    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.tracking-in-contract-bck-bottom {
+    -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.tracking-in-contract {
+    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.text-focus-in {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
